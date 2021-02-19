@@ -134,10 +134,7 @@ header nav ul li a{
 	padding: 10px 0;
 }
 
-.section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
-}
+
 
 .section-two h3,
 .section-three h3 {
@@ -173,6 +170,7 @@ footer {
 	justify-content: center;
 	align-items: center;
 	flex-flow: row wrap;
+	width:100%;
 }
 footer span {
 	font-family: 'Galada', cursive;
@@ -217,6 +215,7 @@ footer span {
 	header nav ul{
 		display: flex;
 		justify-content: space-around;
+		margin: none;
 	}
 
 	header h1 {
